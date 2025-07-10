@@ -74,7 +74,7 @@ body{
 
 .btn-primary:hover{
     background-color: #4440bf;
-    box-shadow: 0 2 6px #3c35ff36; 
+    box-shadow: 0 2px 6px #3c35ff36; 
 }
 
 /* Banner */
