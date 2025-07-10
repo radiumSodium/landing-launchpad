@@ -1,0 +1,78 @@
+/* Setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Common feature  */
+.primary-color{
+    color: #4E47FF;
+}
+
+
+
+/* Whole website */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Hero Wrapper */
+.hero-wrapper{
+    background-image: url("/images/Hero-bg.png");
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/* Banner */
+.banner{
+    padding:158px 268px;
+
+    
+}
+
+.banner-content{
+    text-align: center;
+    
+}
+
+.banner-title{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 37px;
+}
