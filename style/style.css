@@ -46,7 +46,7 @@ body{
 
 /*              Hero Wrapper               */
 .hero-wrapper{
-    background-image: url("/images/Hero-bg.png");
+    background-image: url("./images/Hero-bg.png");
 }
 /* Navbar */
 .navbar{
