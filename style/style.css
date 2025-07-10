@@ -313,3 +313,38 @@ footer{
     display: flex;
     gap: 4px;
 }
+
+.big-card{
+    padding: 115px 150px;
+    
+}
+
+.big-card-content{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.bc-title{
+    
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.big-card-content img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+.big-card-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.big-card-content button{
+    font-weight: 500;
+    font-size: 16px;
+}
