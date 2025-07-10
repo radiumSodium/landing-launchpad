@@ -29,7 +29,7 @@
     background-color: rgba(78, 71, 255, 0.1)
 }
 
-.small-desc-color{
+.mall-desc-colors{
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -40,7 +40,7 @@
 }
 
 body{
-    
+    background-color: #F5F8FF;
 }
 
 
@@ -151,3 +151,52 @@ body{
     color: #4E47FF;
 }
 
+
+
+
+/*        Get in touch section       */
+.get-in-touch-section{
+
+    margin: 92px 150px 79px 150px;
+    
+}
+
+.get-in-touch-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-title{
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 500px;
+    gap: 19px;
+}
+
+.inputfield{
+    margin-top: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+}
+
+.touch-button{
+    margin-top: 20px;
+    display: flex;
+    padding: 19px 0 19px 0;
+    justify-content: center;
+}
