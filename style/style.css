@@ -200,3 +200,49 @@ body{
     padding: 19px 0 19px 0;
     justify-content: center;
 }
+
+
+
+   /* FOOTER  */
+footer{
+    background-color: white ;
+}
+.credit{
+    width: fit-content;
+    padding: 104px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.credit-logo{
+
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.credit .description{
+    color: #8987A1;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.link{
+    
+}
+
+.link ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link ul li {
+    list-style: none;
+}
+
+.link ul li a {
+    text-decoration:  none;
+    color: #8987A1;
+    font-size: 16px;
+}
